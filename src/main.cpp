@@ -5,7 +5,7 @@
  * ESP32 based Mbits board via Arduino platform.
  * https://www.elecrow.com/mbits.html
  *
- * This code is intended to work with the Ring:but Car v2
+ * This code is intended to work with the Ring:bit Car v2
  * https://www.elecfreaks.com/ring-bit-car-v2-for-micro-bit.html
  *
  * External libraries needed:
@@ -218,7 +218,7 @@ void mountSPIFFS()
 void setup()
 {
     pinMode(RESET_PIN, INPUT_PULLUP);
-    pinMode(MODE_PIN, INPUT_PULLUP);
+    pinMode(SHOW_IP_PIN, INPUT_PULLUP);
 
     // Start the serial connection
     Serial.begin(115200);
