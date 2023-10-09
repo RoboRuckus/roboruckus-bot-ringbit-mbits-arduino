@@ -7,7 +7,7 @@
 Assembe the robot acording to the instructions provided in the robot kit with the exception of the following:
 1. The wheel servos should be intalled backwards so that the wheels sit in the cinter of the robot instead of forward.
 2. After assemble add some weight to the rear of the robot to prevent it from tipping forward.
-![photo of assembled robot](https://github.com/RoboRuckus/roboruckus-bot-ringbit-mbits-arduino/blob/main/media/AssembledRobot.jpg)
+![photo of assembly robot](https://github.com/RoboRuckus/roboruckus-bot-ringbit-mbits-arduino/blob/main/media/AssembledRobot.jpg)
 
 ## Programming
 1. To program the robot, first download [Visual Studio Code](https://code.visualstudio.com/).
