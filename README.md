@@ -1,7 +1,8 @@
 # Ring:bit Car Robot for RoboRuckus using the Mbits and Arduino.
 ## Materials
 1. [Ring:bit Car V2](https://shop.elecfreaks.com/products/elecfreaks-micro-bit-ring-bit-v2-car-kit-without-micro-bit-board)
-2. [Mbits](https://www.elecrow.com/mbits.html) (Currently broken on their website, but can be purchased from their [official AliExpress](https://www.aliexpress.com/item/1005003540049324.html), [RobotShop](https://www.robotshop.com/products/elecrow-mbits-esp32-dev-board-based-on-letscode-scratch-30-arduino), or an [AliExpress reseller](https://www.aliexpress.com/item/1005005524784099.html))
+2. Optional: [Tracking Module](https://shop.elecfreaks.com/products/elecfreaks-tracking-module-use-with-ring-bit-car-v2). Needed for automated movement calibration.
+3. [Mbits](https://www.elecrow.com/mbits.html) (Currently broken on their website, but can be purchased from their [official AliExpress](https://www.aliexpress.com/item/1005003540049324.html), [RobotShop](https://www.robotshop.com/products/elecrow-mbits-esp32-dev-board-based-on-letscode-scratch-30-arduino), or an [AliExpress reseller](https://www.aliexpress.com/item/1005005524784099.html))
 
 ## Assembly
 Assemble the robot according to the instructions provided in the robot kit with the exception of the following:
