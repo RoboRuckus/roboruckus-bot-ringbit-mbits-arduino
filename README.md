@@ -1,4 +1,11 @@
 # Ring:bit Car Robot for RoboRuckus using the Mbits and Arduino.
+## Features
+1. Inexpensive
+2. Easy to assemble
+3. Gyroscope based navigation
+4. Web-based firmware updates
+5. Movement calibration with optional line-following tracking module
+
 ## Materials
 1. [Ring:bit Car V2](https://shop.elecfreaks.com/products/elecfreaks-micro-bit-ring-bit-v2-car-kit-without-micro-bit-board)
 2. Optional: [Tracking Module](https://shop.elecfreaks.com/products/elecfreaks-tracking-module-use-with-ring-bit-car-v2). Needed for automated movement calibration.
