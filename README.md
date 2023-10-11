@@ -21,6 +21,6 @@ Assemble the robot according to the instructions provided in the robot kit with 
 1. To program the robot, first download [Visual Studio Code](https://code.visualstudio.com/).
 2. Next, follow the instructions to [install PlatformIO](https://docs.platformio.org/en/latest/integration/ide/vscode.html#ide-vscode).
 3. Clone or download this repository to a folder.
-4. Open the project folder with PlatfomIO in Visual Studio Code.
+4. Open the project folder with PlatformIO in Visual Studio Code.
 5. Connect the Mbits to the computer via USB.
 6. Upload the code using the [PlatformIO toolbar](https://docs.platformio.org/en/latest/integration/ide/vscode.html#ide-vscode-toolbar).
