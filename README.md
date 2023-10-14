@@ -47,7 +47,9 @@ Pressing the B button any time after the robot has successfully connected to the
 If this is the first time powering on the robot it may take a while as it needs to format and mount the SPIFFS. Once it's finished the initial boot, you'll need to configure it to connect to the Wi-Fi network used by the game server as well as the game server's IP address. When you power on the robot for the first time (or if the expected Wi-Fi network is not available) you'll need to wait a minute or so until the screen displays a duck symbol. This is the symbol used to indicate that the robot is in a setup mode.
 
 Here, there robot has created its own Wi-Fi network named called "Ruckus_XXXXXXX" the X's will be unique to each robot. Connect to that network, ideally with your phone, and visit the IP address `192.168.4.1` to reach the robot's setup interface. Choose "Configure Wi-Fi" to setup the robot, and pick the Wi-Fi address you want to robot to connect to. Enter the Wi-Fi password, IP address of the game server, and the port used by the game server, as shown below.
+
 ![photo of assembled robot](/media/RobotWifiGateway.png)
+
 If the Wi-Fi credentials are good, the robot will reboot and attempt to connect to the game server, and you're done! To reset the Wi-Fi or game server settings, see [Hold A During Boot](#hold-a-during-boot).
 
 ### Playing With the Robot
