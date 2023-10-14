@@ -69,7 +69,7 @@ The following tuning parameters are available for this robot (see [tuning a robo
 * Robot Name: The robot's name.
 
 ### Robot Movement Calibration
-Print out the [calibration pattern](/CalibrationPattern.pdf) on a US letter sized piece of paper (8.5"x11"), you can optionally 3D the [robot tuning jig](/Robot_Tuning_Jig.stl) to help with this process.
+Print out the [calibration pattern](/CalibrationPattern.pdf) on a US letter sized piece of paper (8.5"x11"), you can optionally 3D the [robot tuning jig](/Robot_Tuning_Jig.stl) to help with this process. Then, have the robot [enter calibration mode](#hold-b-during-boot):
 1. Turn off the robot and adjust the switch on the bottom to "Other Module".
 2. While holding the B button turn on the robot.
 3. Orient the calibration paper so the black bar near the edge is at the "top".
