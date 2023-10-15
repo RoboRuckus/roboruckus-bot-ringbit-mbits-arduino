@@ -9,7 +9,8 @@
 ## Materials
 1. [Ring:bit Car V2](https://shop.elecfreaks.com/products/elecfreaks-micro-bit-ring-bit-v2-car-kit-without-micro-bit-board)
 2. Optional: [Tracking Module](https://shop.elecfreaks.com/products/elecfreaks-tracking-module-use-with-ring-bit-car-v2). Needed for automated movement calibration.
-3. [Mbits](https://www.elecrow.com/mbits.html) (Currently broken on their website, but can be purchased from their [official AliExpress](https://www.aliexpress.com/item/1005003540049324.html), [RobotShop](https://www.robotshop.com/products/elecrow-mbits-esp32-dev-board-based-on-letscode-scratch-30-arduino), or an [AliExpress reseller](https://www.aliexpress.com/item/1005005524784099.html))
+3. [Mbits](https://www.elecrow.com/mbits.html) (Currently broken on their website, but can be purchased from their [official AliExpress](https://www.aliexpress.com/item/1005003540049324.html), [RobotShop](https://www.robotshop.com/products/elecrow-mbits-esp32-dev-board-based-on-letscode-scratch-30-arduino), or an [AliExpress reseller](https://www.aliexpress.com/item/1005005524784099.html). You can also [contact Elecrow directly](https://www.elecrow.com/contacts) to request an order of Mbits).
+
 
 ## Assembly
 Assemble the robot according to the instructions provided in the robot kit with the exception of the following:
@@ -38,7 +39,7 @@ This will reset the currently saved Wi-Fi and game server settings. When this is
 This will have the robot enter the movement calibration mode. When this is accomplished, the robot will display a duck symbol, you should release the button when you see the duck symbol. See [Robot Movement Calibration](#robot-movement-calibration).
 
 #### Press A
-Pressing the A button any time after the robot has successfully connected to the game server will have it recalibrate the onboard gyroscope. This is automatically done when the robot is powered on, but if the robot is drifting or not turning properly, this can be repeated to help. When the A button is pressed, the robot will display a duck symbol, the robot will display the previous image when the calibration is finished. **The robot should be kept perfectly still during the calibration process.** This can be done anytime, even while playing the game, but shouldn't be done during the movement phase of the game.
+Pressing the A button any time after the robot has successfully connected to the game server will have it recalibrate the onboard gyroscope. This is automatically done when the robot is powered on, but if the robot is drifting or not turning properly, this can be repeated to help. When the A button is pressed the robot will display a duck symbol during calibration, then display the previous image when the calibration is finished. **The robot should be kept perfectly still during the calibration process.** This can be done anytime, even while playing the game, but shouldn't be done during the movement phase of the game.
 
 #### Press B
 Pressing the B button any time after the robot has successfully connected to the game server will have it display the last octet of its IP address on the screen, one number at a time. This can be useful for troubleshooting or for connecting to the robot to [update the firmware](#updating-the-firmware).
