@@ -9,7 +9,6 @@ Webserver::Webserver(Configuration* Config, CommandProcessor* Command, AsyncWebS
     server = webserver;
     config = Config;
     command = Command;
-    HTTP_CODE_CONFLICT
 }
 
 /// @brief Starts the update server
