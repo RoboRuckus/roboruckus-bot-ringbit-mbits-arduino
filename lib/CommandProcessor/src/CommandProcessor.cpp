@@ -68,7 +68,7 @@ bool CommandProcessor::AddSetupCommandToQueue(SetupCommands command, String payl
 
 /// @brief Wraps the command processor task for static access.
 /// @param arg The CommandProcessor object.
-void CommandProcessor::CommandProcessorTaskWrapper(void* arg){
+void CommandProcessor::CommandProcessorTaskWrapper(void* arg) {
     static_cast<CommandProcessor*>(arg)->ProcessTask();
 }
 
